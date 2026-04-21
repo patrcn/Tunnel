@@ -1,0 +1,21 @@
+name: TunnelgraberPlugin
+version: 1.0.0
+main: de.tunnelgraber.TunnelgraberPlugin
+api-version: 1.21
+author: Custom
+description: Tunnelgraeber - 5x5 Mining Spezial Item
+
+commands:
+  tunnelgraber:
+    description: Tunnelgraeber Befehle
+    usage: /tunnelgraber <give|give <spieler>>
+    permission: tunnelgraber.admin
+    permission-message: Du hast keine Berechtigung!
+
+permissions:
+  tunnelgraber.admin:
+    description: Zugriff auf Tunnelgraeber Admin-Befehle
+    default: op
+  tunnelgraber.use:
+    description: Darf den Tunnelgraeber benutzen
+    default: true
